@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quick QR Generator</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+
+  <button id="closeBtn" class="close-btn">✕</button>
+
+
+
+<h2 class="title">
+  <img src="icons/icon128.png" alt="QR" class="title-icon">
+  Quick QR Creator
+</h2>
+
+ <input id="qrInput" type="text" placeholder="Enter text or URL" />
+
+
+ <div class="buttons-row">
+  <button id="generateBtn">Generate</button>
+  <button id="tabBtn">Current Tab</button>
+</div>
+
+  <div class="qr-container">
+    <img id="qrImage" />
+  </div>
+
+ <button id="downloadBtn">Download QR</button>
+
+<div class="history-header">
+  <h3>🕘 History</h3>
+  <button id="clearHistoryBtn">Clear</button>
+</div>
+
+<ul id="historyList"></ul>
+<script src="popup.js"></script>
+</body>
+</html>

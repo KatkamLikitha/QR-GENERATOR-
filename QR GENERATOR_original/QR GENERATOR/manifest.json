@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Quick QR Generator",
+  "description": "Generate QR codes instantly for text, URLs, or the current tab.",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Quick QR Generator"
+  },
+  "permissions": ["tabs"],
+   "host_permissions": [
+    "https://api.qrserver.com/*"
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png",
+    "256": "icons/icon256.png",
+    "512": "icons/icon512.png"
+  }
+}
