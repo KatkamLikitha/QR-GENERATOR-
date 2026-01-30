@@ -45,11 +45,6 @@ QR-Generator-Chrome-Extension/
 
 🛠️ Installation (Developer Mode)
 
-Clone this repository:
-
-git clone https://github.com/your-username/qr-generator-chrome-extension.git
-
-
 Open Google Chrome
 
 Go to:
